@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+#admin-box  {
+    width:50%;
+    margin:100px auto;
+    /* background-image: url(/img/sun-sunlight-bright-outdoor-sky_1127-2391.webp); */
+    background-color:lightblue;
+    border-radius:20px;
+    transition:ease 0.5s ;
+    text-align: center;
+}
+
+#admin-box img{
+    width:75px ;
+    margin:10px auto ;
+}
+
+#admin-box:hover{
+    box-shadow:0px 0px 10px black ;
+}
+
+.font{
+    font-size:20px ;
+}
+
+::placeholder{
+    color: black;
+}
+
+form input{
+    border: 2px solid;
+    padding:2px;
+    color:black;
+}
+
+label{
+    margin:10px 0px ;
+    font-size: 20px;
+    text-align: 20px;
+}
+#admin-box > img{
+    width:50px ;
+}
+
+#admin-box h1 {
+    font-size: 35px;
+    text-align:35px;
+    margin:10px 0px;
+    text-transform: uppercase;
+}
+
+.pg a {
+    text-decoration:none ;
+    color: blue;
+    text-transform: capitalize;
+}
+
+input[type="sumbit"] {
+    width: 30%;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: ease-in-out 0.5s;
+}
+
+a :active {
+    color:red ;
+}
+
+input[type="submit"]:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}

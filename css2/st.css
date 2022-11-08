@@ -1,0 +1,68 @@
+*{
+ border: 0;
+ outline: 0;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#admin-box {
+    text-align: center;
+    width:50%;
+    margin:100px auto ;
+    background-image:url(/img/sun-sunlight-bright-outdoor-sky_1127-2391.webp);
+    border-radius:15px;
+    transition: ease 0.5s;
+}
+
+#admin-box >img {
+    width:75px;
+}
+
+#admin-box h1 {
+   font-size:25px;
+   text-align:25px;
+   margin: auto;
+}
+
+.font {
+    font-size:20px ;
+}
+
+a :active {
+    color:aqua;
+}
+
+input[type="submit"]:hover {
+    background-color: orangered;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 30%;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: ease-in-out 0.5s;
+}
+
+#admin-box:hover {
+    box-shadow:0px 0px 10px lightcoral;
+}
+
+form input {
+   border:2px solid ; 
+}
+
+label{
+    margin: auto;
+}
+
+::placeholder{
+    color: black;
+}
+
+h1 {
+    color: lightyellow;
+    font-size:20 ;
+}
